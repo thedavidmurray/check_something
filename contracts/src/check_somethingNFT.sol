@@ -231,4 +231,4 @@ contract check_somethingNFT is ERC721, Ownable {
         return string(bstr);
     }
 }
-}
+
