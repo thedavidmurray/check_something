@@ -52,7 +52,7 @@ contract check_somethingNFT is ERC721, Ownable {
     constructor() ERC721("check_somethingNFT", "CHKSMTH") {
         defaultURI = "ipfs://QmSFqezaUhBKr32Z2vgFrbDPGYdbcj8zQcQvsDqbU6b6UH";
         authorizedMinters[msg.sender] = true;
-    }
+    
 
         // The deployer is set as an authorized minter, allowing them to set up
         // owner mints manually via the contract as needed
